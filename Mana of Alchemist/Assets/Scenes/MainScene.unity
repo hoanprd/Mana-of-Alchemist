@@ -8419,9 +8419,9 @@ MonoBehaviour:
   - name: Basic Turret
     cost: 100
     prefab: {fileID: 8661306388931004316, guid: fecbe1839cd2e8d44a9761a490322047, type: 3}
-  - name: Test Turret
-    cost: 150
-    prefab: {fileID: 8661306388931004316, guid: 38867c38c4d4bfc45b4141bb4dffe6d3, type: 3}
+  - name: Slomo Turret
+    cost: 200
+    prefab: {fileID: 825005545162938848, guid: ed122fd9f9bae64458c38d357f86f4d5, type: 3}
 --- !u!1001 &1638736125
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8603,7 +8603,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Test turret
+  m_text: Slomo turret
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
