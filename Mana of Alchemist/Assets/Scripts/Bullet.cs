@@ -11,17 +11,23 @@ public class Bullet : MonoBehaviour
     [SerializeField] private float bulletSpeed = 5f;
     [SerializeField] private int bulletDamage = 1;
 
+    private Transform target;
+
     public void SetTarget(Transform _target)
     {
         target = _target;
     }
 
-    private Transform target;
-
     // Update is called once per frame
     private void FixedUpdate()
     {
-        if (!target) return;
+        //if (!target) return;
+
+        if (!target)
+        {
+            Destroy(gameObject);
+            return;
+        }
 
         Vector2 direction = (target.position - transform.position).normalized;
 
